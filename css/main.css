@@ -1,7 +1,4 @@
-body {
-    background: rgb(47, 0, 255);
-}
-@import"Variables.css";
+@import"variables.css";
 @import"body.css";
 @import"navbar.css";
 @import"header.css";
