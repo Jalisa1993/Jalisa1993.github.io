@@ -12,7 +12,7 @@ color: rgb(179, 109, 77);
 }
 
 body, html {
-    background: url("../assets/BareBrownTree.jpg") fixed no-repeat;
+    background: url("../assets/BareBrownTree.jpg")  no-repeat;
     background-position: center center;
     background-size: cover;
 }
