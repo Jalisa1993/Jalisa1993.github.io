@@ -1,4 +1,32 @@
 .project, html {
-    background-color: beige;
+    background-color: #D0CBCE;
+    background-blend-mode: color-burn;
+}
 
+.StoreFront {
+    height:800px;
+    width: 800px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+.Shop {
+    height:500px;
+    width:500px;
+    object-fit: cover
+}
+
+.Monster {
+    height: 500px;
+    width: 500px;
+}
+
+.CSharp {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.projectImages {
+    width: 100%;
 }
