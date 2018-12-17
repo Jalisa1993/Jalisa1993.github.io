@@ -1,5 +1,3 @@
-.jumbotron {
-    background: url("../assets/ContactMe.jpg") no-repeat;
-    background-position: center center ;
-    background-size: 50em;
+.contact {
+    background-image: url("../assets/ContactMe.jpg");
 }
