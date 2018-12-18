@@ -1,3 +1,10 @@
+
+body {
+  height: 500px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, blue, green, green,blue ); /* Standard syntax (must be last) */
+}
+
 .intro-message > h1 {
 margin: 2;
 text-shadow: 2px 2px 2px rgba(0,0,0,.6);
