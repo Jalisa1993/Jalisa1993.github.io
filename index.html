@@ -12,8 +12,8 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#Skills">Skilled In</a></li>
-        <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="Resume link">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1HpK7FrPT3FIwgbATTIwBfOT_8dfhlNgSnn3Hu7K3xOI/edit">Resume</a></li>
         <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
       </ul>
     </div>
@@ -35,15 +35,6 @@
 </head>
 
 <body>
-    <style>
-        #grad1 {
-          height: 500px;
-          background-color: red; /* For browsers that do not support gradients */
-          background-image: linear-gradient(to right, blue, green, green,blue ); /* Standard syntax (must be last) */
-        }
-        </style>
-        </head>
-        <body>
   <!-- Header-->
   <div class="intro-header">
     <div class="row">
@@ -139,7 +130,7 @@
     </section>
 
     <!--Project Section-->
-    <section id="project">
+    <section id="projects">
       <div class="container">
 
         <div class="row">
@@ -200,45 +191,48 @@
   </div>
   </div>
   <!--Contact Section-->
-  <div class="container">
-    <h2 class="text-center text-uppercase">Contact</h2>
-    <div class="row-center">
-      <form action="https://formspree.io/jlssmmns93@gmail.com" method="POST">
-        <div class="control-group">
-          <div class="form-group">
-            <label>Name</label>
-            <input type="text" class="form-control" placeholder="Your Name" id="name" required
-              data-validation-required-message="Please enter your name" name="name">
-            <p class="help-block text-danger"></p>
-          </div>
-        </div>
-        <div class="control-group">
-          <div class="form-group">
-            <label>Email Address</label>
-            <input type="email" class="form-control" placeholder="Your Email" id="email" required
-              data-validation-required-message="Please enter your email" name="_replyto">
-            <p class="help-block text-danger"></p>
-          </div>
-        </div>
-        <div class="control-group">
-          <div class="form-group">
-            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-              data-validation-required-message="Please leave a message" name="message"></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-        </div>
-        <div class="text-center">
-          <div id="success"></div>
-          <button type="submit" class="btn btn-lg btn-secondary">
-            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-            Send Message
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
+  <section id="Contact">
 
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact</h2>
+      <div class="row-center">
+        <form action="https://formspree.io/jlssmmns93@gmail.com" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Your Name" id="name" required
+              data-validation-required-message="Please enter your name" name="name">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Your Email" id="email" required
+              data-validation-required-message="Please enter your email" name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+              data-validation-required-message="Please leave a message" name="message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-secondary">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
   </div>
+</section>
   <!--Footer Section-->
   <section id="footer">
 
