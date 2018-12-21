@@ -1,9 +1,4 @@
 
-body {
-  height: 500px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, blue, green, green,blue ); /* Standard syntax (must be last) */
-}
 
 .intro-message > h1 {
 margin: 2;
@@ -19,7 +14,7 @@ color: rgb(179, 109, 77);
 }
 
 body, html {
-    background: url("/assets/BareTree.jpg")  no-repeat;
+   background-image: url("../assets/Reflection.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
 }
