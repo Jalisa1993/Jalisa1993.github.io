@@ -1,7 +1,10 @@
 .header {
-    background-image: url("../assets/BareBrownTree.jpg");
-    background-attachment: fixed;
+    background-image: url("../assets/EscalatorReflection.jpg");
+    background-attachment: center;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     
 }
 
