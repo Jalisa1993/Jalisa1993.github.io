@@ -1,6 +1,10 @@
 #Contact {
-    background: url(../assets/Reflection.jpg);
-    
+    background-image: url(../assets/Reflection.jpg);
+    background-attachment: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
 }
  
 .label, h2{
