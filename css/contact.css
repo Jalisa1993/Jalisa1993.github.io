@@ -1,3 +1,11 @@
 #Contact {
-    background: url(../assets/Reflection.jpg)
+    background: url(../assets/Reflection.jpg);
+    
 }
+ 
+.label, h2{
+    color: lightblue;
+}
+
+
+
